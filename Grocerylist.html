@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta charset="UTF-8">
+		<meta name="description" content="Asma's Grocery List">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Tayyibah">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="Asma.css" type="text/css"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+		<style>
+		.container{
+		  background-image: url("cherryblossom.jpeg");
+		  backdrop-filter: opacity(20%);
+		  background-repeat: no-repeat;
+		  background-size: 100%, 100%;
+		  position: sticky;
+		  background-attachment: fixed;
+		  background-blend-mode: overlay;
+		<!-- background-color:#272525;  -->
+		}
+body{
+background-color: black;}
+	h1{
+	text-shadow: 2px 2px 5px red;
+	} 
+	footer{
+	background-color:rgba(255, 0, 0, 0.4);
+	}
+#btnpage{
+	text-align: center;
+	margin-left: 490px;
+	}
+	
+	.btn btn-link{
+	hover{
+	text-decoration: none;
+	}
+	}
+	</style>
+	
+<script>
+function reload(){
+location.reload();
+}
+</script>
+
+
+<!-- style="color:C80101; 
+color:050A55 -->
+
+</head>
+
+<body>
+<div class="container">
+<marquee id='top'><strike style="color:white; "> <h1 style="color:black; text-shadow: 5px 5px 10px black;font-family:Times New Roman;">  Asma The Great  </h1> </strike></marquee>
+<div class="nav">
+<ul>
+<li><a href='Asma.html'>Asma's Website</a> </li>
+<!-- <li><a href='#famouswords'>Famous Words</a></li>
+<li><a href='#tablefriends'>Table Friends table</a></li>-->
+<li><a href="Asmaform.html">Asma's Q&A</a></li>
+<li><a href="Grocerylist.html">Grocery List</a></li>
+<!-- <li><a href='#contact'>Contact</a></li> -->
+</ul>
+</div>
+ <h1 style="color:black; font-family:Times New Roman;" align="center"> <strong> <legend style="2px solid black"> Grocery List: </legend></strong> </h1>
+ <div class="grocery"> 
+<ol type="1">
+			<li><a href="Pepsi.html" target= “_blank”> Pepsi </a> </li>
+			<li><a href="Piyaz.html" target= “_blank”> Piyaz </a></li>
+			<li><a href="Tamatar.html" target= “_blank”> Tamatar</a></li>
+			<li><a href="Aloo.html"  target= “_blank”> Aloo</a></li>
+			<li><a href="Podina.html" target= “_blank”> Podina</a></li>
+			<li><a href="Doodh.html" target= “_blank”> Doodh </a></li>
+			<li><a href="CheeniShakkar.html" target= “_blank”> Cheeni/Shakkar </a></li>
+			<li><a href="Namak.html" target= “_blank”> Namak </a></li>
+			<li><a href="Maida.html" target= “_blank”> Maida </a></li>
+			<li><a href="Dhaniya.html" target= “_blank”> Dhaniya </a></li>
+			<li><a href="Marami.html" target= “_blank”> Marami </a></li>
+			<li><a href="Dahi.html" target= “_blank”> Dahi </a></li>
+			<li><a href="Coffee.html" target= “_blank”> Coffee </a></li>
+			<li><a href="Chocolate.html" target= “_blank”> Chocolate </a></li>
+			<li><a href="Klast Peppermint Gum.html" target= “_blank”> Klast Peppermint Gum </a></li>
+</ol>
+</div>
+</body>
+
+<br><br><br><br><br><br>
+<footer>
+	<button id="btnpage" onclick="pageclick()" class="btn btn-link" > <p id="sp"class="footer"align="center">&reg; AsmaTheGreat </p> </button>
+	<p class="footer" style="" align="center">2023 All RIGHTS RESERVED</p>
+	<p class="footer" style="" align="center">&copy; Tayyibah </p>
+</footer>
+
+<script>
+let res="2199";
+function pageclick(){
+var pwd= window.prompt("Enter password");
+if(pwd.match(res)){
+window.location.href = "secret.html";
+}
+else{
+window.alert("Sorry wrong password");
+}
+}
+</script>
+<div>
+</html>

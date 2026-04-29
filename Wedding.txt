@@ -1,0 +1,10 @@
+Wedding:
+Menu: 
+	- Tikka
+	- Biryani
+Dress:
+
+Venue:
+	- A beach
+People:
+
